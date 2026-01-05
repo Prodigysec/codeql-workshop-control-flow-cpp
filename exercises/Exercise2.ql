@@ -2,6 +2,8 @@
  * @kind path-problem
  */
 
+// Implement the predicate reachable using the successor relationship 
+
 import cpp
 
 query predicate edges(ControlFlowNode pred, ControlFlowNode succ) { pred.getASuccessor() = succ }
@@ -10,7 +12,9 @@ query predicate nodes(ControlFlowNode n, string key, string val) {
   key = "semmle.label" and val = n.toString() + " : " + n.getAPrimaryQlClass()
 }
 
-predicate reachable(ControlFlowNode source, ControlFlowNode destination) { none() }
+predicate reachable(ControlFlowNode source, ControlFlowNode destination) { 
+  source.getASuccessor*() = destination
+ }
 
 from ControlFlowNode source, ControlFlowNode destination
 where reachable(source, destination) and source != destination
