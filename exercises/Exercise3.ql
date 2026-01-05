@@ -13,13 +13,13 @@ query predicate nodes(ControlFlowNode n, string key, string val) {
 }
 
 predicate reachable(ControlFlowNode source, ControlFlowNode destination) {
-  // Copy solution from Exercise 2 here
-  none()
+  source.getASuccessor*() = destination
 }
 
 from ControlFlowNode source, ControlFlowNode destination
 where
   reachable(source, destination) and
-  source != destination
-// Add additional conditions here
+  source != destination and
+  not exists(source.getAPredecessor()) and
+  not exists(destination.getASuccessor())
 select source, source, destination, "Control flow starting at $@", source, source.toString()
