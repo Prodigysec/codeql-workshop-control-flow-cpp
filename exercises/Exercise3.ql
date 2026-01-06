@@ -3,6 +3,9 @@
  * @kind path-problem
  */
 
+
+// Answers the question: "Show me complete paths from entry to exit"
+
 import cpp
 
 query predicate edges(ControlFlowNode pred, ControlFlowNode succ) { pred.getASuccessor() = succ }
