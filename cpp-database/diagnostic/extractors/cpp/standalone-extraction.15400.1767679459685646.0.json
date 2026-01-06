@@ -1,0 +1,1 @@
+{"timestamp":"2026-01-06T06:04:19.685624900Z","source":{"id":"cpp/bmn/platform-information","name":"Platform information","extractorName":"cpp"},"severity":"note","visibility":{"statusPage":false,"cliSummaryTable":false,"telemetry":true},"attributes":{"arch":"x86_64","family":"windows","num_cpus":4,"os":"windows"}}

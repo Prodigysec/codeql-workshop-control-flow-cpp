@@ -1,0 +1,29 @@
+[E 06:04:22 5060] CodeQL C/C++ Extractor 2.23.8
+[E 06:04:22 5060] Current directory: C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\exercises-tests
+[E 06:04:22 5060] Command: C:\ProgramData\chocolatey\lib\codeql\tools\codeql\cpp\tools\win64\extractor --mimic "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\Hostx64\x64\cl.exe" /std:c++latest /Zs /EHs /permissive C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\exercises-tests\Exercise7\test7.cpp
+[E 06:04:22 5060] Checking whether C compilation already happened.
+[E 06:04:22 5060] Checking for tag c-compilation-happened
+[E 06:04:22 5060] Looks like C compilation didn't already happen.
+[E 06:04:22 5060] Checking whether C compilation has been attempted.
+[E 06:04:22 5060] Checking for tag c-compilation-attempted
+[E 06:04:22 5060] Marking C compilation as attempted.
+[E 06:04:22 5060] Setting tag c-compilation-attempted
+[E 06:04:22 5060] Processed command line: C:\ProgramData\chocolatey\lib\codeql\tools\codeql\cpp\tools\win64\extractor --trapfolder C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\cpp-database\trap\cpp --src_archive C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\cpp-database\src --no_warnings_and_discretionary_errors --error_limit 10000 --disable_system_macros --variadic_macros --incognito --microsoft --c++ --ms_permissive --ms_c++latest -- C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\exercises-tests\Exercise7\test7.cpp
+[E 06:04:22 5060] CODEQL_EXTRACTOR_CPP_TRAP_CACHING is not set
+[E 06:04:22 5060] CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_WRITE is not set
+[E 06:04:22 5060] CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_DIR is not set
+[E 06:04:22 5060] Initialising TRAP cache at path: \\?\C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\exercises-tests\fd\7843\4358e3fdeb5353b6b00aa8b07195
+[E 06:04:22 5060] Not using TRAP cache
+[E 06:04:22 5060] TRAP cache miss
+[E 06:04:22 5060] Starting compilation TRAP C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\cpp-database\trap\cpp/compilations/10/43882403_0.trap.zst
+[E 06:04:22 5060] Archiving C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\cpp-database\src/C_/Users/admin/vulnresearch/CodeQL/codeql-workshop-control-flow-cpp/exercises-tests/Exercise7/test7.cpp
+[E 06:04:22 5060] Warning[extractor-c++]: In emit_platform_diagnostic: Failed to rename diagnostic file from 'C' to 'C': The process cannot access the file because it is being used by another process.
+[E 06:04:22 5060] Creating trap tarball C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\cpp-database\trap\cpp/tarballs/C_/Users/admin/vulnresearch/CodeQL/codeql-workshop-control-flow-cpp/exercises-tests/Exercise7/test7.cpp.89779d57_0.trap.tar.zst
+[E 06:04:22 5060] Emitting trap files for C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\exercises-tests\Exercise7\test7.cpp
+[E 06:04:22 5060] Opening existencedb in \\?\C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\cpp-database\working\existencedb\db
+[E 06:04:22 5060] Warning[extractor-c++]: In canonicalise_path: fs::canonical failed on test7.obj (The system cannot find the file specified.)
+[E 06:04:22 5060] Wrote 1 files to C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\cpp-database\trap\cpp/tarballs/C_/Users/admin/vulnresearch/CodeQL/codeql-workshop-control-flow-cpp/exercises-tests/Exercise7/test7.cpp.89779d57_0.trap.tar.zst
+[E 06:04:22 5060] Finished compilation TRAP C:\Users\admin\vulnresearch\CodeQL\codeql-workshop-control-flow-cpp\cpp-database\trap\cpp/compilations/10/43882403_0.trap.zst
+[E 06:04:22 5060] Marking C compilation as happened.
+[E 06:04:22 5060] Setting tag c-compilation-happened
+[E 06:04:22 5060] Extractor exited successfully

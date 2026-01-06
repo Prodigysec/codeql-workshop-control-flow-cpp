@@ -1,0 +1,1 @@
+{"timestamp":"2026-01-06T06:04:23.162070300Z","source":{"id":"cpp/bmn/standalone-extraction-completed","name":"Standalone extraction completed","extractorName":"cpp"},"severity":"note","visibility":{"statusPage":false,"cliSummaryTable":false,"telemetry":true},"attributes":{"standalone_extraction_time_seconds":3}}

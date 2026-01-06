@@ -1,0 +1,30 @@
+{
+    "attributes": {
+        "armcc_version": 0,
+        "build_mode": "none",
+        "clang_version": 90100,
+        "compiler": "MSVC",
+        "compiler family": "Microsoft",
+        "gnu_version": 80100,
+        "microsoft_version": 1926,
+        "os": "windows",
+        "sizeof(int)": 4,
+        "sizeof(long long)": 8,
+        "sizeof(long)": 4,
+        "sizeof(nullptr)": 4,
+        "std_version": 202002
+    },
+    "markdownMessage": "Internal telemetry for the C++ extractor.\n\nNo action needed.",
+    "severity": "note",
+    "source": {
+        "extractorName": "cpp",
+        "id": "cpp/extractor/platform",
+        "name": "C++ extractor platform telemetry"
+    },
+    "timestamp": "2026-01-06T06:04:22.6652297+0000",
+    "visibility": {
+        "cliSummaryTable": false,
+        "statusPage": false,
+        "telemetry": true
+    }
+}

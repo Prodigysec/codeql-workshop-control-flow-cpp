@@ -1,0 +1,119 @@
+[
+  {
+    "directory": "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests",
+    "command": "C:\\ProgramData\\chocolatey\\lib\\codeql\\tools\\codeql\\cpp\\tools\\win64\\extractor",
+    "arguments": [
+      "--mimic",
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+      "/std:c++latest",
+      "/Zs",
+      "/EHs",
+      "/permissive",
+      "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests\\Exercise1\\test1.cpp"
+    ]
+  },
+  {
+    "directory": "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests",
+    "command": "C:\\ProgramData\\chocolatey\\lib\\codeql\\tools\\codeql\\cpp\\tools\\win64\\extractor",
+    "arguments": [
+      "--mimic",
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+      "/std:c++latest",
+      "/Zs",
+      "/EHs",
+      "/permissive",
+      "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests\\Exercise2\\test2.cpp"
+    ]
+  },
+  {
+    "directory": "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests",
+    "command": "C:\\ProgramData\\chocolatey\\lib\\codeql\\tools\\codeql\\cpp\\tools\\win64\\extractor",
+    "arguments": [
+      "--mimic",
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+      "/std:c++latest",
+      "/Zs",
+      "/EHs",
+      "/permissive",
+      "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests\\Exercise3\\test3.cpp"
+    ]
+  },
+  {
+    "directory": "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests",
+    "command": "C:\\ProgramData\\chocolatey\\lib\\codeql\\tools\\codeql\\cpp\\tools\\win64\\extractor",
+    "arguments": [
+      "--mimic",
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+      "/std:c++latest",
+      "/Zs",
+      "/EHs",
+      "/permissive",
+      "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests\\Exercise4\\test4.cpp"
+    ]
+  },
+  {
+    "directory": "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests",
+    "command": "C:\\ProgramData\\chocolatey\\lib\\codeql\\tools\\codeql\\cpp\\tools\\win64\\extractor",
+    "arguments": [
+      "--mimic",
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+      "/std:c++latest",
+      "/Zs",
+      "/EHs",
+      "/permissive",
+      "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests\\Exercise5\\test5.cpp"
+    ]
+  },
+  {
+    "directory": "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests",
+    "command": "C:\\ProgramData\\chocolatey\\lib\\codeql\\tools\\codeql\\cpp\\tools\\win64\\extractor",
+    "arguments": [
+      "--mimic",
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+      "/std:c++latest",
+      "/Zs",
+      "/EHs",
+      "/permissive",
+      "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests\\Exercise6\\test6.cpp"
+    ]
+  },
+  {
+    "directory": "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests",
+    "command": "C:\\ProgramData\\chocolatey\\lib\\codeql\\tools\\codeql\\cpp\\tools\\win64\\extractor",
+    "arguments": [
+      "--mimic",
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+      "/std:c++latest",
+      "/Zs",
+      "/EHs",
+      "/permissive",
+      "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests\\Exercise7\\test7.cpp"
+    ]
+  },
+  {
+    "directory": "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests",
+    "command": "C:\\ProgramData\\chocolatey\\lib\\codeql\\tools\\codeql\\cpp\\tools\\win64\\extractor",
+    "arguments": [
+      "--mimic",
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+      "/std:c++latest",
+      "/Zs",
+      "/EHs",
+      "/permissive",
+      "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests\\Exercise8\\test8.cpp"
+    ]
+  },
+  {
+    "directory": "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests",
+    "command": "C:\\ProgramData\\chocolatey\\lib\\codeql\\tools\\codeql\\cpp\\tools\\win64\\extractor",
+    "arguments": [
+      "--mimic",
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+      "/std:c++latest",
+      "/Zs",
+      "/EHs",
+      "/permissive",
+      "C:\\Users\\admin\\vulnresearch\\CodeQL\\codeql-workshop-control-flow-cpp\\exercises-tests\\Exercise9\\test9.cpp"
+    ]
+  }
+]
