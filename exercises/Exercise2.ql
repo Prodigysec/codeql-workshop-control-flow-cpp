@@ -13,7 +13,7 @@ query predicate nodes(ControlFlowNode n, string key, string val) {
 }
 
 predicate reachable(ControlFlowNode source, ControlFlowNode destination) { 
-  source.getASuccessor*() = destination
+  source.getASuccessor+() = destination
  }
 
 from ControlFlowNode source, ControlFlowNode destination
